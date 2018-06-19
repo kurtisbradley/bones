@@ -9,7 +9,7 @@
 				<div class="s-container">
 					<div class="home-intro section animate fade-up">
 						<h1>Welcome to Bones</h1>
-						<p>A bare bones WordPress theme, designed to be the ultimate blank slate starting point of a build from scratch web site. Made for developers who like building from a blank starting points, with no dependencies, and freedom of flexibility.</p>
+						<p>A bare bones WordPress theme, designed to be the ultimate blank slate starting point of a build from scratch web site. Made for developers who like building from a blank starting point, with no dependencies, and freedom of flexibility.</p>
 						<h4>Created by <a href="https://kurt.is" target="_blank" rel="noreferrer noopener">Kurtis Bradley</a></h4>
 					</div>
 				</div>
