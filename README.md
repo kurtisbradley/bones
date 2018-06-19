@@ -2,7 +2,7 @@
 
 A bare bones WordPress theme, designed to be the ultimate blank slate starting point of a built from scratch web site.
 
-Made for developers who like building from a completely blank starting points, with no dependencies, and freedom of flexibility.
+Made for developers who like building from a blank starting point, with no dependencies, and freedom of flexibility.
 
 ## Author
 

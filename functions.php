@@ -158,16 +158,6 @@ function theme_option_page() { ?>
 	<?php
 }
 
-// theme options contact email
-function theme_email_callback() {
-	echo '<input type="text" name="theme_email" id="theme_email" value="'.get_option('theme_email').'" />';
-}
-
-// theme options contact phone
-function theme_phone_callback() {
-	echo '<input type="text" name="theme_phone" id="theme_phone" value="'.get_option('theme_phone').'" />';
-}
-
 // theme options blog format
 function theme_blog_format_callback() {
 	if (empty(get_option('theme_blog_format'))) {
@@ -180,12 +170,6 @@ function theme_blog_format_callback() {
 // theme options settings
 function theme_settings() {
 	add_settings_section('theme_options_section', 'General Options', '', 'theme-options');
-	
-	add_settings_field('contact_email', 'Contact Email', 'theme_email_callback', 'theme-options', 'theme_options_section');
-	register_setting('theme-options-group', 'theme_email');
-	
-	add_settings_field('contact_phone', 'Contact Phone', 'theme_phone_callback', 'theme-options', 'theme_options_section');
-	register_setting('theme-options-group', 'theme_phone');
 	
 	add_settings_field('blog_format', 'Blog Format', 'theme_blog_format_callback', 'theme-options', 'theme_options_section');
 	register_setting('theme-options-group', 'theme_blog_format');

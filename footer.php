@@ -3,8 +3,8 @@
 			<?php if (!is_page('contact')) { ?>
 				<div class="cta">
 					<div class="container">
-						<h1>Do you like what you see?</h1>
-						<p>Click the link below to get in touch with the team and we'll help make your dreams a reality.</p>
+						<h1>Like what you see?</h1>
+						<p>Click the link below to get in touch with the team.</p>
 						<a href="<?php echo site_url('/contact'); ?>" class="button">Contact us</a>
 					</div>
 				</div>
