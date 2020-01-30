@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-	<section id="primary" class="archive">
+	<section id="primary" class="blog-archive">
 		<div class="container">
 			<?php if (get_option('theme_blog_format') == 'grid') { echo '<div class="row">'; } ?>
 				<?php if (have_posts()) { ?>

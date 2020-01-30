@@ -1,16 +1,11 @@
 # Bones
 
-A bare bones WordPress theme, designed to be the ultimate blank slate starting point of a built from scratch web site.
+The bare bones WordPress theme, developed to be a blank slate starting point of a build from scratch WordPress website. 
 
-Made for developers who like building from a blank starting point, with no dependencies, and freedom of flexibility.
-
-## Author
-
-Kurtis Bradley of [kurt.is](https://kurt.is) & [bravostudios.com.au](https://bravostudios.com.au)
+Made for developers who like the freedom and flexibility of a blank starting point to build upon.
 
 ## Features
 
-- HTML5
 - Normalize.css
 - Responsive grid system
 - Fully responsive layout
@@ -23,3 +18,7 @@ Kurtis Bradley of [kurt.is](https://kurt.is) & [bravostudios.com.au](https://bra
 
 - To install upload Bones to your "wp-content/themes" directory
 - Activate theme and enjoy
+
+## Author
+
+- [Kurtis Bradley](https://kurt.is)

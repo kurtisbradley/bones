@@ -1,6 +1,6 @@
 <?php 
 	if (get_option('theme_blog_format') == 'grid') {
-		$blog_format = 'grid col s12 m6 l4';
+		$blog_format = 'grid col-12 col-md-4 col-sm-6';
 	} else {
 		$blog_format = 'list clear';
 	} 

@@ -85,6 +85,14 @@ show_admin_bar(false);
 
 
 
+/*--------------------------------------------------------------
+Plugins
+--------------------------------------------------------------*/
+// register acf options pages
+//if (function_exists('acf_add_options_page')) {
+//	acf_add_options_page();
+//}
+
 
 
 /*--------------------------------------------------------------
@@ -129,8 +137,6 @@ function pagination($pages = '', $range = 2) {
 		echo "</div>\n";
 	}
 }
-
-
 
 
 
